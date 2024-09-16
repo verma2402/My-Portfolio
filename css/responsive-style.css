@@ -99,3 +99,16 @@
        border: 0;
     }
 }
+
+@media (max-width: 768px) {
+    .col {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .front, .back {
+        font-size: 14px;
+    }
+}
